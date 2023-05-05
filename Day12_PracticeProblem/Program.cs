@@ -12,7 +12,7 @@ namespace Day12_PracticeProblem
         {
             Console.WriteLine("Welcome to Day 12 basic problems");
             Console.WriteLine("Choose the option from below");
-            Console.WriteLine("1.Find duplicate elements in array\n2.Print unique elements\n3.Maximum and minimun element in array\n4.Reverse each element in array");
+            Console.WriteLine("1.Find duplicate elements in array\n2.Print unique elements\n3.Maximum and minimun element in array\n4.Reverse each element in array\n5.Print Triangle pattern");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -30,6 +30,9 @@ namespace Day12_PracticeProblem
                     break;
                 case 4:
                     ReverseString.StringReverse();
+                    break;
+                case 5:
+                    TrianglePattern.PrintPattern();
                     break;
                 default:
                     Console.WriteLine("Choose valid option");
