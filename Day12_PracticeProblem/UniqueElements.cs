@@ -13,25 +13,25 @@ namespace Day12_PracticeProblem
             Console.WriteLine("Array elements\n");
             foreach (int i in arr)
             {
-                Console.WriteLine(i+" ");
+                Console.WriteLine(i + " ");
             }
             Console.WriteLine("\nArray unique elements\n");
             for (int i = 0; i < arr.Length; i++)
-             {
-               bool isUnique = true;
-                 for (int j = 0; j < arr.Length; j++)
-                 {
-                    if (i!=j && arr[i] == arr[j])
+            {
+                bool isUnique = true;
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    if (i != j && arr[i] == arr[j])
                     {
-                        isUnique=false;
+                        isUnique = false;
                         break;
-                    }                    
-                 }
-                    if (isUnique)
-                    {
-                        Console.WriteLine(arr[i]+" ");
                     }
                 }
+                if (isUnique)
+                {
+                    Console.WriteLine(arr[i] + " ");
+                }
+            }
         }
     }
 }
