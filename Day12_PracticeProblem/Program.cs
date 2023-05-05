@@ -12,7 +12,7 @@ namespace Day12_PracticeProblem
         {
             Console.WriteLine("Welcome to Day 12 basic problems");
             Console.WriteLine("Choose the option from below");
-            Console.WriteLine("1.Find duplicate elements in array\n2.Print unique elements");
+            Console.WriteLine("1.Find duplicate elements in array\n2.Print unique elements\n3.Maximum and minimun element in array");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -23,6 +23,10 @@ namespace Day12_PracticeProblem
                 case 2:
                     int[] arr = { 1, 2, 3, 2, 4, 5, 3, 6, 7, 6, 8 };
                     UniqueElements.PrintUniqueElements(arr);
+                    break;
+                case 3:
+                    int[] arr1 = { 5, 8, 2, 10, 1, 7 };
+                    MaxAndMinInArrayt.MinAndMax(arr1);
                     break;
                 default:
                     Console.WriteLine("Choose valid option");
