@@ -20,7 +20,7 @@ namespace Day12_PracticeProblem
                     if(row==0 || row==size-1 || column == 0 || column== size-1)
                     {
                         Console.Write("*");
-                    }
+                    }  
                     else
                     {
                         Console.Write(" ");
@@ -31,3 +31,12 @@ namespace Day12_PracticeProblem
         }
     }
 }
+//output
+//********
+//*      *
+//*      *
+//*      *
+//*      *
+//*      *
+//*      *
+//********
