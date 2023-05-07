@@ -12,7 +12,8 @@ namespace Day12_PracticeProblem
         {
             Console.WriteLine("Welcome to Day 12 basic problems");
             Console.WriteLine("Choose the option from below");
-            Console.WriteLine("1.Find duplicate elements in array\n2.Print unique elements\n3.Maximum and minimun element in array\n4.Reverse each element in array\n5.Print Triangle pattern\n6.Print Hollow Square\n7.Sum of digits of number");
+            Console.WriteLine("1.Find duplicate elements in array\n2.Print unique elements\n3.Maximum and minimun element in array\n4.Reverse each element in array\n5.Print Triangle pattern\n6.Print Hollow Square\n7.Sum of digits of number" +
+                "\n8.Convert first letter to upper case");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -39,6 +40,9 @@ namespace Day12_PracticeProblem
                     break;
                 case 7:
                     SumOfDigits.FindSumOfDigits();
+                    break;
+                case 8:
+                    FirstLetterCapital.MakeFirstLetterCapital();
                     break;
                 default:
                     Console.WriteLine("Choose valid option");

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FirstLetterCapital.cs" />
     <Compile Include="FindDuplicate.cs" />
     <Compile Include="HollowSquare.cs" />
     <Compile Include="MaxAndMinInArrayt.cs" />
